@@ -1,0 +1,51 @@
+body {
+    background-color: purple;
+    background-image: url("../images/vikings.jpg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+ 
+}
+
+h1 {
+    
+    text-align: center;
+    padding: 7px;
+    color: gold;
+}
+
+.btn {
+    
+    color: gold;
+    background-color: brown;
+}
+
+.row {
+    align-content: center;
+    text-align: center;
+    display: block;
+    padding: 4px;
+}
+
+/* targets each "question" */
+
+p span.question {
+    font-weight: bold;
+    color: gold;
+}
+
+/* targets each "answer" */
+
+span#questions p div span {
+    padding: 0 5px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:green;
+    color:gold;
+    text-align: center;
+    padding: 20px;
+}
