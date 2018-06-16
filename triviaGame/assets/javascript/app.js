@@ -57,8 +57,6 @@ var correctAnswers = 0;
 var unchecked = 0;
 
 
-
-
 $(document).ready(function () {
 
     $("#submit").hide()
